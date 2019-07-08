@@ -29,7 +29,7 @@
     $host = "projectsubmission1.database.windows.net";
     $user = "project.submission";
     $pass = "Agung1ds*";
-    $db = "projectsubmission1";
+    $db = "projectsubmissiondb";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
